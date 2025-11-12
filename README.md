@@ -40,20 +40,26 @@ This program replaces the manual system and helps manage:
    - **Employees** → track staff  
 
 ### 💻 Option 2 – Command Line
-```bash
+\`\`\`bash
 # Windows
-javac -d bin src\main\java\edu\ftcc\farmstore\**\*.java
+javac -d bin src\\main\\java\\edu\\ftcc\\farmstore\\**\\*.java
 java -cp bin edu.ftcc.farmstore.App
 
 # macOS / Linux
 javac -d bin src/main/java/edu/ftcc/farmstore/**/*.java
 java -cp bin edu.ftcc.farmstore.App
+\`\`\`
 
 ### 🧩 Option 3 – Maven (optional)
+\`\`\`bash
 mvn clean package
 java -jar target/farmstore-manager-1.0.0.jar
+\`\`\`
 
-### 📂 Project Structure
+---
+
+## 📂 Project Structure
+\`\`\`text
 Farm-Store-Manager-Project/
 │
 ├── src/
@@ -68,34 +74,45 @@ Farm-Store-Manager-Project/
 │
 ├── README.md           → this file
 └── pom.xml             → Maven build (optional)
+\`\`\`
 
-🧪 Features / Testing Checklist
-Feature	Description	CSV File
-Store	Add/Edit/Delete items (SKU, name, category, price, qty, taxable)	inventory.csv
-Animals	Add/Edit/Toggle Hold/Mark Sold/Delete animals	animals.csv
-Services	Add/Edit/Delete available services	services.csv
-Employees	Add/Edit/Delete employees	employees.csv
-Persistence	All changes saved automatically	All CSV files
+---
 
-🧠 Lessons Learned
+## 🧪 Features / Testing Checklist
+| Feature     | Description                                                      | CSV File        |
+|--------------|------------------------------------------------------------------|-----------------|
+| Store       | Add/Edit/Delete items (SKU, name, category, price, qty, taxable) | `inventory.csv` |
+| Animals     | Add/Edit/Toggle Hold/Mark Sold/Delete animals                    | `animals.csv`   |
+| Services    | Add/Edit/Delete available services                               | `services.csv`  |
+| Employees   | Add/Edit/Delete employees                                        | `employees.csv` |
+| Persistence | All changes saved automatically                                  | All CSV files   |
 
-Organizing large Java projects into packages and classes
+---
 
-Implementing object-oriented design for reusability
+## 🧠 Lessons Learned
+- Organizing large Java projects into packages and classes  
+- Implementing object-oriented design for reusability  
+- Managing persistent data without a database  
+- Collaborating via Git & GitHub  
+- Building and testing Swing GUI applications  
 
-Managing persistent data without a database
+---
 
-Collaborating via Git & GitHub
+## 👥 Group Members
+| Name                    | Role      |
+|--------------------------|-----------|
+| Joey Ackerman-Lowery    | Developer |
+| Alexander Brinson       | Developer |
+| Joshua Carter           | Developer |
+| Haylee Paredes          | Developer |
 
-Building and testing Swing GUI applications
+---
 
+## 🏁 Status
+- ✅ Functional prototype completed  
+- 💾 Data persistence verified  
+- 🎨 GUI fully interactive
 
-👥 Group Members
-Name	  Role
-Joey Ackerman-Lowery - Developer
-Alexander Brinson - Developer
-Joshua Carter - Developer
-Haylee Paredes - Developer
 
 🏁 Status
 
