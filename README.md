@@ -59,7 +59,8 @@ java -jar target/farmstore-manager-1.0.0.jar
 ---
 
 ## 📂 Project Structure
-\`\`\`text
+```text
+
 Farm-Store-Manager-Project/
 │
 ├── src/
@@ -74,9 +75,7 @@ Farm-Store-Manager-Project/
 │
 ├── README.md           → this file
 └── pom.xml             → Maven build (optional)
-\`\`\`
-
----
+```
 
 ## 🧪 Features / Testing Checklist
 | Feature     | Description                                                      | CSV File        |
